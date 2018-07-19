@@ -1,0 +1,32 @@
+{
+  "name": "ethlantis-oracle-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooolfgang/ethlantis-oracle-bridge.git"
+  },
+  "author": "li arolf rey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wooolfgang/ethlantis-oracle-bridge/issues"
+  },
+  "homepage": "https://github.com/wooolfgang/ethlantis-oracle-bridge#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  }
+}
